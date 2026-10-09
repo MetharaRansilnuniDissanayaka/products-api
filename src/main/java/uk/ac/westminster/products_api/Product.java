@@ -1,0 +1,40 @@
+package uk.ac.westminster.products_api;
+
+public class Product {
+    private Long id;
+    private String name;
+    private double price;
+
+    public Product(Long id,String name,double price){
+
+        // id=ok explore this and get idea
+        this.id = id;
+        this.name= name;
+        this.price = price;
+
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Long getId() {
+        return id;
+    }
+}
